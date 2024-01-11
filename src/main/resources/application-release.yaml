@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://1.2.3.4:3306/passwordencrypt?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true
+    username: passwordencrypt
+    password: encoded_passwords

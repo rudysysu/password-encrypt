@@ -1,0 +1,5 @@
+server:
+  port: 8080
+mybatis:
+  type-aliases-package: com.dy.passwordencrypt.domain
+  mapper-locations: classpath:com/dy/passwordencrypt/dao/sqlmap/*.xml
